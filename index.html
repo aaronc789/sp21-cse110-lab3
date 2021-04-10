@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>Lab2</title>
+</head>
+
+<body>
+    <header>
+        <h1>Aaron's Journal Entries</h1>
+        <div>Days of the week:</div>
+
+        <nav>
+            <ul>
+                <li><a href="#Monday">Monday - 4/5/21</a></li>
+                <li><a href="#Tuesday">Tuesday - 4/6/21</a></li>
+                <li><a href="#Wednesday">Wednesday - 4/7/21</a></li>
+                <a href="#Form">Form</a>
+            </ul>
+            <hr>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2 id="Monday"><span style="color:blue">Monday</span> - 4/5/21</h2>
+            <p> Today I woke up to the James Bond Theme being played from the speakers downstairs.</p>
+            <audio controls>
+                <source src="JamesBondTheme.mp3" type="audio/mpeg">
+            </audio>
+
+            <h3>Grocery List</h3>
+            <p> Go to store later to pick up these items in the afternoon:</p>
+            <ul>
+                <li>Milk</li>
+                <li>Eggs</li>
+                <li>Bread</li>
+                <li>Muffins</li>
+                <li>Strawberries</li>
+                <li>Chicken</li>
+                <li>Potstickers</li>
+                <li>Instant Ramen</li>
+            </ul>
+
+            <hr>
+        </section>
+
+        <section>
+            <h2 id="Tuesday"><span style="color:red">Tuesday</span> - 4/6/21</h2>
+            <p>Today I got up and make a grilled cheese sandwich for brunch</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NFAN6L7xnvY"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+            <h3>Chores</h3>
+            <strong>NEED to get done TODAY</strong>
+            <ol>
+                <li><input type="checkbox" /> Wash the dishes</li>
+                <li><input type="checkbox" /> Weed out the yard</li>
+                <li><input type="checkbox" /> Go grocery shopping</li>
+                <li><input type="checkbox" /> Clean the kitchen</li>
+                <li><input type="checkbox" /> Vacuum the floors</li>
+                <li><input type="checkbox" /> Dust the tables</li>
+            </ol>
+            <b>P.S. DONT FORGET TO FEED THE DOG</b>
+            <hr>
+        </section>
+
+        <section>
+            <h2 id="Wednesday"><span style="color:green">Wednesday</span> - 4/7/21</h2>
+            <p>Today I brought my beagle, <i>Cody</i>, to the <a href="https://www.dogbeach.org/">dog beach</a> and he
+                had a great time running around on the sand <br> and jumping and playing with other dogs!</p>
+            <p>He had so much fun; We <em>must</em> go back another day again!</p>
+            <details>
+                <summary>Here is a picture of him after a fun day at the beach, he's all tired now!</summary>
+                <img src="img/Cody_image.jpg" alt="Cody!">
+            </details>
+            <hr>
+        </section>
+
+        <section>
+            <h2 id="Form"><span style="color:Purple">Form</span></h2>
+            <form>
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+
+                <label for="Day">Choose the day of the week:</label>
+                <input list="day" name="Day" id="Day">
+                <datalist id="day">
+                    <option value="Monday">
+                    <option value="Tuesday">
+                    <option value="Wednesday">
+                    <option value="Thursday">
+                    <option value="Friday">
+                    <option value="Saturday">
+                    <option value="Sunday">
+                </datalist>
+
+                <label for="date">Date:</label>
+                <input type="date" id="Date" name="Date"><br><br>
+
+                <fieldset>
+                    <legend>Your Journal Information</legend>
+
+                    <p>Please select your gender:</p>
+                    <input type="radio" id=male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label><br><br>
+
+                    <input type="checkbox" id="dog" name="dog" value="Dog">
+                    <label for="dog"> I have a dog</label><br>
+                    <input type="checkbox" id="cat" name="cat" value="Cat">
+                    <label for="cat"> I have a cat</label><br>
+                    <input type="checkbox" id="bird" name="bird" value="Bird"> <label for="bird"> I have a
+                        bird</label><br><br>
+
+
+                    <label for="colors">Choose a color:</label>
+                    <select name="colors" id="colors">
+                        <option value="red">Red</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="green">Green</option>
+                        <option value="blue">Blue</option>
+                        <option value="purple">Purple</option>
+                        <option value="orange">Orange</option>
+                        <option value="Pink">Pink</option>
+                    </select>
+                    <br><br>
+
+                    <label for="journal">Journal Entry:</label>
+                    <textarea id="journal" name="journal" rows="7" cols="50"> </textarea> <br> <br>
+                </fieldset>
+                <br>
+                <button type="button" onclick="alert('Submitted! :)')">Submit!</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <div> Aaron Chao's Journal Page &#128512;</div>
+    </footer>
+</body>
+
+</html>
