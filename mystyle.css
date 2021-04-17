@@ -13,3 +13,47 @@ legend{color: hotpink;}
 /* background color */
 
 body {background-color: lightblue;}
+
+/* unit (absolute and relative)*/
+h1{font-size: 50px;
+    line-height: 1em;}
+
+h2{font-size: 40Q;}
+
+h3{font-size: 2pc;}
+
+p{font-size: 2ch;}
+
+button{font-size: 150%;}
+
+/* Box Model */
+/* Margin */
+h2 {
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+  }
+
+h1 {margin: 1em 1em 1em 1em;}
+
+b {margin: auto;}
+
+/* Padding */
+input {
+    padding-top: 5px;
+    padding-right: 5;
+    padding-bottom: 5px;
+    padding-left: 5px;
+  }
+
+a{padding: 10px 10px 10px 10px;}
+
+/* Borders */
+ol {
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+    border-radius: 15px;
+    margin-right: 1650px;
+}
