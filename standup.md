@@ -1,7 +1,35 @@
-# Tasks to do for Lab 3
+# Lab 3
 
-1. Need td add all the different CSS componenets to Journal Entries.
+### Team Members: Aaron Chao
 
-2. Don't forget to include issues and add labels to them!
+Due Date: 4/18/21
 
-3. Create different branches to pull requests from.
+There are 2 objectives for this lab:
+1. Introduce project management in Github using Agile
+2. Add Cascading Style Sheets (CSS) to your Journal Entries
+
+For the first objective we will be implementing Agile techniques inside Github, as shown in the checklist below.
+
+Agile Checklist:
+
+1. Issues
+2. Pull Requests
+3. Standup Notes
+
+For the second objective we will be implementing different CSS properties, as shown in the checklist below.
+
+CSS Checklist:
+
+1. Comment
+2. Color
+3. Background
+4. Unit
+5. Box Model
+6. Text
+7. Display
+8. Sizing
+9. Position
+10. Pseudo-class
+11. Layouts
+12. Responsiveness
+13. Fonts
