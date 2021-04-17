@@ -1,0 +1,15 @@
+/* color */
+
+body {color: rgb(11, 95, 29);}
+
+h1{color: #692099;}
+
+b{color: hsl(207, 100%, 50%);}
+
+h3{color: orange;}
+
+legend{color: hotpink;}
+
+/* background color */
+
+body {background-color: lightblue;}
