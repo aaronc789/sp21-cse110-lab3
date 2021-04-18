@@ -21,7 +21,7 @@
                 <li><a href="#Tuesday">Tuesday - 4/6/21</a></li>
                 <li><a href="#Wednesday">Wednesday - 4/7/21</a></li>
             </ul>
-            <a href="#Form">Form</a>
+            <a href="#Form" target="form">Form</a>
             <hr>
         </nav>
     </header>
@@ -43,7 +43,9 @@
                 <li>Eggs</li>
                 <li>Bread</li>
                 <li>Muffins</li>
-                <li>Strawberries</li>
+                <section>
+                    <li>Strawberries</li>
+                </section>
                 <li>Chicken</li>
                 <li>Potstickers</li>
                 <li>Instant Ramen</li>
@@ -55,7 +57,7 @@
         <section>
             <h2 id="Tuesday"><span style="color:red">Tuesday</span> - 4/6/21</h2>
             <p>Today I got up and made a
-            <p class="grilled">grilled cheese sandwich</p> for brunch.</p>
+            <p id="grilled">grilled cheese sandwich</p> for brunch.</p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/NFAN6L7xnvY"
                 title="YouTube video player" style="border:0;"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -70,6 +72,7 @@
                 <li><input type="checkbox" /> Clean the kitchen</li>
                 <li><input type="checkbox" /> Vacuum the floors</li>
                 <li><input type="checkbox" /> Dust the tables</li>
+                <p>Finish all tasks!</p>
             </ol>
             <b>P.S. DONT FORGET TO FEED THE DOG</b>
             <hr>
@@ -82,7 +85,8 @@
                 had a great time running around on the sand <br> and jumping and playing with other dogs!</p>
             <p class="fun">He had so much fun; We <em>must</em> go back another day again!</p>
             <details>
-                <summary>Here is a picture of him after a fun day at the beach, he's all tired now!</summary>
+                <summary class="pic">Here is a picture of him after a fun day at the beach, he's all tired now!
+                </summary>
                 <img src="img/Cody_image.jpg" alt="Cody!">
             </details>
             <hr>
@@ -132,12 +136,14 @@
                     <legend>Your Journal Information</legend>
 
                     <p>Please select your gender:</p>
-                    <input type="radio" id="male" name="gender" value="male">
-                    <label for="male">Male</label><br>
-                    <input type="radio" id="female" name="gender" value="female">
-                    <label for="female">Female</label><br>
-                    <input type="radio" id="other" name="gender" value="other">
-                    <label for="other">Other</label><br><br>
+                    <div>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label><br><br>
+                    </div>
 
                     <input type="checkbox" id="dog" name="dog" value="Dog">
                     <label for="dog"> I have a dog</label><br>
